@@ -1,0 +1,102 @@
+
+
+
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+body, html { font-size: 100%; padding: 0; margin: 0;}
+.clearfix:before, .clearfix:after { content: " "; display: table; }
+.clearfix:after { clear: both; }
+
+body {
+	font-family: 'Oldenburg', cursive;
+	color: #777;
+	font-size: 16px;
+	line-height: 1.6;
+}
+
+a {
+	color: #539f10;
+	text-decoration: none;
+}
+
+a:hover,
+a:active {
+	color: #111;
+}
+
+p{
+    font-size: 18px;
+    line-height: 28px;
+}
+
+
+
+
+html{
+    height: 100%;
+}
+body{
+    background-color: #ece2a3;
+    height: 100%;
+    font-family: 'Oldenburg', cursive;
+    -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.big_bg{
+    background-image: url(../images/bg.png);
+    width: 4000px;
+    height: 2000px;
+    position: absolute;
+    z-index: 0;
+    left: 50%;
+    top: 50%;
+    margin: -1000px 0 0 -2000px;
+}
+
+.girl{
+    width: 392px;
+    height: 413px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin: 0 0 0 -196px;
+    z-index: 1000;
+    background-image: url(../images/girl.png);
+}
+.hair{
+    width: 494px;
+    height: 199px;
+    position: absolute;
+    bottom: 203px;
+    left: 50%;
+    z-index: 1000;
+    background-image: url(../sprites.png);
+    margin: 0 0 0 -114px;
+    /*background-color: rgba(255,0,0,0.3);*/
+    /*animation: hair 0.02s infinite;*/
+    background-position: -57px -69px;
+    transform-origin :left;
+}
+.hair1{background-position: -57px -63px;}
+
+.hair2{background-position: -57px -366px;}
+
+.hair3{ background-position: -57px -666px;}
+
+
+
+
+
+.logo{
+    width: 192px;
+    height: 193px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+.logo img{
+    display: block;
+}
+.main{
+    overflow: hidden;
+    position: relative;
+}
